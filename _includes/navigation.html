@@ -1,0 +1,13 @@
+<nav>
+  <h1>Andrew</h1>
+  <h1>David</h1>
+  <h1>Sen</h1>
+  <!--<h2>structural</h2>
+  <h2>engineering</h2>
+  <h2>research/teaching</h2>-->
+  <ul>
+  {% for item in site.data.navigation %}
+    <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+  {% endfor %}
+  </ul>
+</nav>
