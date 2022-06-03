@@ -1,4 +1,17 @@
 - name: Home
   link: /
+
 - name: Curriculum vitæ
   link: /cv.html
+
+- name: Research
+  link: /research.html
+
+- name: Teaching
+  link: /teaching.html
+#
+#- name: Teaching resources
+#  link: /teaching_resources.html
+#
+#- name: Personal interests
+#  link: /personal.html
