@@ -7,9 +7,12 @@
 - name: Research
   link: /research.html
 
+- name: People
+  link: /people.html
+  
 - name: Teaching
   link: /teaching.html
-#
+
 #- name: Teaching resources
 #  link: /teaching_resources.html
 #

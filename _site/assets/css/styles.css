@@ -1,4 +1,4 @@
-body { font: 100% Helvetica, sans-serif; color: #DDD; background-color: #111; margin: 0; }
+body { font: 100% Helvetica, sans-serif; color: #DDD; background-color: #111; margin: 0; max-width: 1600px; }
 
 body p { margin: 6pt 0; }
 
@@ -8,7 +8,7 @@ body h1 { font-size: 300%; margin-top: 42px; margin-bottom: 0px; letter-spacing:
 
 body h2 { margin-bottom: 0px; }
 
-body table, body th, body td { padding: 0px; }
+body table, body th, body td { padding: 0px; min-width: 100%; }
 
 nav { position: fixed; left: 170px; width: 170px; height: 100%; padding-left: 000px; background-color: #1A1A1A; overflow: auto; }
 
@@ -27,5 +27,7 @@ nav a:hover { background-color: #111; }
 nav a:visited { color: #DDD; }
 
 .current { background-color: #111; }
+
+.left_image { position: fixed; left: 0px; width: 300px; height: 100%; background-image: url("/assets/images/background_skyscraper.jpg"); background-repeat: no-repeat; background-position: 70%; background-size: cover; }
 
 /*# sourceMappingURL=styles.css.map */
